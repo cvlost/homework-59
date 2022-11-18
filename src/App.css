@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -17,6 +17,9 @@ body {
   padding: 0 1em;
   margin: 0 auto;
   border: 2px solid gray;
+}
+
+.App-cols {
   display: flex;
 }
 
