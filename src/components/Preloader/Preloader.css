@@ -4,7 +4,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, .9);
     z-index: 1000;
 }
 
@@ -18,12 +18,12 @@
 .Loader {
     font-size: 10px;
     position: absolute;
-    top: calc(50% - 5em);
+    top: calc(50% - 9em);
     left: calc(50% - 5em);
     text-indent: -9999em;
-    border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-top: 1.1em solid #dc14ed;
     border-right: 1.1em solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1.1em solid #ff9900;
     border-left: 1.1em solid #ffffff;
     transform: translateZ(0);
     animation: load8 1.1s infinite linear;

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import AddMovieForm from "../../components/AddMovieForm/AddMovieForm";
 import MovieItem from "../../components/MovieItem/MovieItem";
+import './MovieTracker.css';
 
 interface MovieData {
   title: string;

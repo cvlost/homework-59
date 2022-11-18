@@ -32,11 +32,11 @@ const MovieItemFunc: React.FC<Props> = ({onTitleChange, deleteMovie, title}) => 
         placeholder="Enter a new title..."
       />
       <button
-        className="MovieItem-button"
+        className="MovieItem-button btn"
         type="button"
         onClick={deleteMovie}
       >
-        XXX
+        X
       </button>
     </div>
   );

@@ -8,16 +8,22 @@ function App() {
   return (
     <div className="App">
       <div className="App-top">
-        <JokeBox/>
-      </div>
-      <div className="App-cols">
-        <div className="App-col">
-          <p>Class components</p>
-          <MovieTracker/>
+        <h2 className="App-title">Jokes</h2>
+        <div className="App-joke-wrapper">
+          <JokeBox/>
         </div>
-        <div className="App-col">
-          <p>Functional components</p>
-          <MovieTrackerFunc/>
+      </div>
+      <div className="App-bottom">
+        <h2 className="App-title">Movie Tracker</h2>
+        <div className="App-cols">
+          <div className="App-col">
+            <p>*Class components</p>
+            <MovieTracker/>
+          </div>
+          <div className="App-col">
+            <p>*Functional components</p>
+            <MovieTrackerFunc/>
+          </div>
         </div>
       </div>
     </div>

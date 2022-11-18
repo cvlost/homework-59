@@ -1,10 +1,20 @@
 .AddMovieFrom {
-    border: 1px solid red;
     padding: 1em;
+    display: flex;
 }
 
 .AddMovieFrom-input {
+    width: 100%;
+    box-shadow: inset 0 0 0 1px #44444422;
+    transition: box-shadow .3s;
+}
 
+.AddMovieFrom-input:hover {
+    box-shadow: inset 0 0 0 1px #44444499;
+}
+
+.AddMovieFrom-input:focus {
+    box-shadow: inset 0 0 0 2px #44444499
 }
 
 .AddMovieFrom-button {

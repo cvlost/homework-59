@@ -31,11 +31,11 @@ class MovieItem extends Component<Props> {
           placeholder="Enter a new title..."
         />
         <button
-          className="MovieItem-button"
+          className="MovieItem-button btn"
           type="button"
           onClick={this.props.deleteMovie}
         >
-          XXX
+          X
         </button>
       </div>
     );

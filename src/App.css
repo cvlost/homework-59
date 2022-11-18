@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+#root {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,21 +13,87 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #5d5d5d;
+}
+
+.btn {
+  outline: 0;
+  border: 0;
+  font-size: inherit;
+  cursor: pointer;
+  background: #ff9900;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0.4em 0.4em 0 #dc14ed, inset 0 0 0 1px #44444499;
+  padding: 1em 1.5em;
+  display: block;
+  transition: background-color .3s, box-shadow .3s;
+}
+
+input[type=text] {
+  border: 0;
+  outline: 0;
+  padding: .5em 1em;
+  font-size: 1.1em;
+}
+
+::placeholder {
+  font-style: italic;
+  color: #c9c9c9 ;
+  font-size: .8em;
+}
+
+.btn:hover {
+  background: #dc14ed;
+  box-shadow: 0.7em 0.5em 0 #ff9900, inset 0 0 0 3px #828282;
 }
 
 .App {
   text-align: center;
   max-width: 1200px;
-  padding: 0 1em;
+  padding: 1em;
   margin: 0 auto;
-  border: 2px solid gray;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-top {
+  box-shadow: 0 0 15px gainsboro;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.App-joke-wrapper {
+  position: relative;
+  padding-bottom: 1.5em;
+  margin: 0 -1em
+}
+
+.App-bottom {
+  box-shadow: 0 0 15px gainsboro;
+  padding: 1em;
 }
 
 .App-cols {
   display: flex;
+  flex: 1;
+}
+
+.h1, h2, h3, h4, h5 {
+  color: black;
+}
+
+.App-title {
+  border-left: 10px solid #dc14ed;
+  text-align: left;
+  padding: .5em .8em;
+  margin: 0 0 1em;
 }
 
 .App-col {
   padding: 1em;
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }

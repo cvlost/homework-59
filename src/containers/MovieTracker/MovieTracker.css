@@ -1,4 +1,7 @@
-.MovieTracker {}
+.MovieTracker {
+    box-shadow: 0 0 15px gainsboro;
+    flex: 1;
+}
 
 .MovieTracker-list {}
 

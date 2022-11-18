@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import AddMovieFormFunc from "../../components/AddMovieForm/AddMovieFormFunc";
 import MovieItemFunc from "../../components/MovieItem/MovieItemFunc";
+import './MovieTracker.css';
 
 interface MovieData {
   title: string;

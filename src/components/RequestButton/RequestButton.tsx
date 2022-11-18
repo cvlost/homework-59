@@ -1,4 +1,5 @@
 import React from 'react';
+import './RequestButton.css';
 
 interface Props {
   onClick: () => void;
@@ -6,7 +7,7 @@ interface Props {
 
 const RequestButton: React.FC<Props> = ({onClick}) => {
   return (
-    <button onClick={onClick}>Get new jokes</button>
+    <button className="btn RequestButton" onClick={onClick}>Get new jokes</button>
   );
 };
 

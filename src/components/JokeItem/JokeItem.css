@@ -1,4 +1,8 @@
 .JokeItem {
+    text-align: left;
     padding: 1em;
-    border: 1px solid orange;
+}
+
+.JokeItem:nth-child(odd) {
+    background: #f2f6ff;
 }
