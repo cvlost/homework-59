@@ -1,0 +1,9 @@
+.MovieItem {
+    padding: 1em;
+    border: 1px solid green;
+    margin-bottom: 1em;
+}
+
+.MovieItem-input {}
+
+.MovieItem-button {}
